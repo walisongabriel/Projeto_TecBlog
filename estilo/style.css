@@ -1,0 +1,107 @@
+@charset "UTF-8" ;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Cabeçalho do blog*/
+header{
+    background-color: rgb(255, 187, 0);
+    text-align: center;
+    padding: 15px ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.37);
+}
+/*paragrafo dentro do cabeçalho*/
+header h1 {
+    padding: 5px 5px 15px 5px;    
+}
+header > h1 > span{
+    color: white;
+}
+/*menu dentro do cabeçalho*/
+header > nav > a{
+    padding: 0px 7px;
+    text-decoration: none;
+    color: white;
+}
+header > nav > a:hover{
+    background-color: white;
+    color: rgb(255, 187, 0);
+    padding: 7px;
+    border-radius: 4px;
+}
+/*corpo do site */
+main{
+    padding: 10px;
+    max-width: 920px;
+    margin: 0px auto;
+
+}
+/*Area de postagens do blog*/
+#area-postagens{
+    max-width: 660px;
+    float: left;
+    margin-bottom: 10px;
+}
+#area-postagens h2 {          /*titulo das postagens*/
+    color: rgb(255, 187, 0);
+}
+#area-postagens span{       /*descrição das postagens, conteudo de texto*/
+    display: block;
+    font-size: 0.8em;
+    padding-bottom:10px;
+}
+.postagem{             /*area individual de postagem*/
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.308);
+}
+main > div#area-postagens > .postagem > img {               /*imagens das postagens*/
+    max-width: 620px;
+    width: 100%;
+}
+ /*Area lateral do site*/ 
+#area-lateral{
+    max-width: 240px;
+    float: right;
+}
+.conteudo-lateral{               /*configuração das postagens laterais*/
+    background: white;
+    padding: 5px ;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+}
+.conteudo-lateral h3{              /*titulo das postagens laterais*/
+    background-color: rgba(211, 211, 211, 0.938);
+    padding: 5px;
+    text-align: center;
+}
+.texto-lateral{      /*configuração do texto no paragrafo lateral*/
+    font-size: 0.9em;
+}
+.postagem-lateral hr {      /*linha que divide as postages laterais*/
+    margin: 3px 0px;
+}
+.postagem-lateral a{
+    text-decoration: none;
+    color: rgb(255, 187, 0);
+}
+.postagem-lateral a:hover{
+    text-decoration: underline;
+}
+
+#clear{
+    clear: both;    
+}
+footer{
+    max-width: 920px;
+    margin: auto;
+    background-color: grey;
+    padding: 20px 10px;
+    text-align: center;
+}
