@@ -52,6 +52,7 @@ main{
     max-width: 660px;
     float: left;
     margin-bottom: 10px;
+    
 }
 #area-postagens h2 {          /*titulo das postagens*/
     color: rgb(255, 187, 0);
@@ -75,12 +76,14 @@ main > div#area-postagens > .postagem > img {               /*imagens das postag
 #area-lateral{
     max-width: 240px;
     float: right;
+
 }
 .conteudo-lateral{               /*configuração das postagens laterais*/
     background: white;
     padding: 5px ;
     margin: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+    max-width: 240px;
 }
 .conteudo-lateral h3{              /*titulo das postagens laterais*/
     background-color: rgba(211, 211, 211, 0.938);
