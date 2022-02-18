@@ -23,10 +23,16 @@ header > h1 > span{
     color: white;
 }
 /*menu dentro do cabeçalho*/
+header nav {
+    margin: auto;
+    min-width: 150px;
+    max-width: 85vw;
+}
 header > nav > a{
     padding: 0px 7px;
     text-decoration: none;
     color: white;
+
 }
 header > nav > a:hover{
     background-color: white;
